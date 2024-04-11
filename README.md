@@ -1,4 +1,4 @@
-## Email Validator 
+## Email Validator 🧪
 
 Chrome extension that validates emails in bulk using Vite and TypeScript.
 
@@ -24,10 +24,10 @@ Chrome extension that validates emails in bulk using Vite and TypeScript.
 
 - Open Chrome and go to chrome://extensions/.
 - Enable "Developer mode" by toggling the switch in the top right corner.
-- Click on "Load unpacked" and select the dist directory inside the project folder.
+- Click on "Load unpacked" and select the *dist directory* inside the project folder.
 
 
 <!-- credits -->
-Icons by [Pixel perfect - Flaticon](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/free-icons/email)
+Icons by [Pixel perfect - Flaticon](https://www.flaticon.com/free-icons/email)
 
 
