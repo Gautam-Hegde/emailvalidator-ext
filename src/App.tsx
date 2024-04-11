@@ -13,8 +13,8 @@ function App() {
     setIsLoading(true);
     try {
       let url = useSmtpCheck
-        ? "https://dry-plains-00116-5dd51a1d43b4.herokuapp.com/checksmtp"
-        : "https://dry-plains-00116-5dd51a1d43b4.herokuapp.com/check";
+        ? "http://localhost:8080/checksmtp"
+        : "http://localhost:8080/check";
 
       const response = await axios.post(url, emails, {
         headers: {
@@ -88,7 +88,8 @@ invaildemail@faker.com"
             </button>
           </>
         )}
-        <div className="flex items-center justify-center">
+      </div>
+      <div className="flex-col bottom-0 fixed">
           <a
             href="https://twitter.com/GautamHegde12"
             target="_blank"
@@ -109,7 +110,6 @@ invaildemail@faker.com"
             </svg>
           </a>
         </div>
-      </div>
     </div>
   );
 }
